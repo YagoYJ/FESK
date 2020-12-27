@@ -1,0 +1,36 @@
+.mobileHeader {
+  width: 100%;
+  padding: 20px;
+}
+
+.mobileHeader .options {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobileHeader .options img {
+  width: 30%;
+}
+
+.mobileHeader .options .optionsButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobileHeader .options .optionsButtons .iconButton {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: unset;
+  border: none;
+}
+
+.mobileHeader .options .optionsButtons .iconButton img {
+  width: 30px;
+}

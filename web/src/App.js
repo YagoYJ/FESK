@@ -1,6 +1,7 @@
 import { useState } from "react";
 import DesktopHeader from "./components/DesktopHeader";
 import MobileHeader from "./components/MobileHeader";
+import Footer from "./components/Footer";
 import "./global.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       {windowSize > 800 ? <DesktopHeader /> : <MobileHeader />}
+      <Footer />
     </div>
   );
 }

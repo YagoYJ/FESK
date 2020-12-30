@@ -1,5 +1,6 @@
+import { FaUserAlt } from "react-icons/fa";
+
 import logo from "../../assets/logo.png";
-import iconUserLoginDesktop from "../../assets/icon-user-login-desktop.png";
 
 import "./styles.css";
 
@@ -37,7 +38,11 @@ export default function DesktopHeader() {
               </li>
             </ul>
             <a href="#">
-              <img src={iconUserLoginDesktop} alt="Login de usuário" />
+              <FaUserAlt
+                color="#ffffff"
+                fontSize={25}
+                className="userLoginIcon"
+              />
             </a>
           </nav>
         </div>

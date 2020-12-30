@@ -1,0 +1,112 @@
+.footer {
+  width: 100%;
+  padding: 15px 10px;
+  color: #ffffff;
+}
+
+.footer h2 {
+  text-align: center;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.footer .container .sendEmailForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .container .sendEmailForm .inputGroup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.footer .container .sendEmailForm .inputGroup input {
+  width: 49%;
+}
+
+.footer .container .sendEmailForm input,
+.footer .container .sendEmailForm textarea,
+.footer .container .sendEmailForm button {
+  width: 100%;
+  padding: 8px;
+  background: unset;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.footer .container .sendEmailForm textarea {
+  margin-top: 5px;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.footer .container .sendEmailForm button {
+  color: #18191a;
+  background-color: #ffffff;
+  margin-top: 5px;
+}
+
+.footer .container .sendEmailForm button:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.footer .container .or {
+  width: 2%;
+  margin: 10px auto;
+}
+
+.footer .container .contacts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer .container .contacts .contact {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .container .contacts .contact span {
+  margin-left: 10px;
+  font-size: 1.3rem;
+}
+
+@media (min-width: 970px) {
+  .footer .container {
+    flex-direction: row;
+  }
+
+  .footer .container .sendEmailForm {
+    width: 55%;
+  }
+
+  .footer .container .or {
+    margin: 0;
+  }
+
+  .footer .container .contacts {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+}

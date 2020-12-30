@@ -1,9 +1,7 @@
 import { useState } from "react";
+import { FaBars, FaTimes, FaUserAlt } from "react-icons/fa";
 
 import logo from "../../assets/logo.png";
-import iconUserLoginMobile from "../../assets/icon-user-login-mobile.png";
-import iconMenuBars from "../../assets/icon-menu-bars.png";
-import iconClose from "../../assets/icon-close.png";
 
 import "./styles.css";
 
@@ -25,17 +23,17 @@ export default function MobileHeader() {
         <img src={logo} alt="Logo da FESK" />
         <div className="optionsButtons">
           <button className="iconButton">
-            <img src={iconUserLoginMobile} alt="Login de usuário" />
+            <FaUserAlt color="#830719" fontSize={35} />
           </button>
           <button className="iconButton" onClick={handleOpenMenu}>
-            <img src={iconMenuBars} alt="Barras de menu" />
+            <FaBars color="#830719" fontSize={35} />
           </button>
         </div>
       </div>
       {menuVisible && (
         <nav className="menu">
           <button className="iconButton closeButton" onClick={handleCloseMenu}>
-            <img src={iconClose} alt="Botão para fechar o menu" />
+            <FaTimes color="#ffffff" fontSize={35} />
           </button>
           <ul>
             <li>Início</li>

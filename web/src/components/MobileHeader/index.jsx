@@ -1,10 +1,11 @@
+import { useState } from "react";
+
 import logo from "../../assets/logo.png";
-import iconUserLogin from "../../assets/icon-user-login.png";
+import iconUserLoginMobile from "../../assets/icon-user-login-mobile.png";
 import iconMenuBars from "../../assets/icon-menu-bars.png";
 import iconClose from "../../assets/icon-close.png";
 
 import "./styles.css";
-import { useState } from "react";
 
 export default function MobileHeader() {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -19,12 +20,12 @@ export default function MobileHeader() {
   }
 
   return (
-    <div className="header mobileHeader">
+    <header className="header mobileHeader">
       <div className="options">
         <img src={logo} alt="Logo da FESK" />
         <div className="optionsButtons">
           <button className="iconButton">
-            <img src={iconUserLogin} alt="Login de usuário" />
+            <img src={iconUserLoginMobile} alt="Login de usuário" />
           </button>
           <button className="iconButton" onClick={handleOpenMenu}>
             <img src={iconMenuBars} alt="Barras de menu" />
@@ -46,6 +47,6 @@ export default function MobileHeader() {
           </ul>
         </nav>
       )}
-    </div>
+    </header>
   );
 }

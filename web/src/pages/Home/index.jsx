@@ -1,4 +1,6 @@
 import Card from "../../components/Card";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 import feskGroupImage from "../../assets/feskGroupImage.png";
 
@@ -7,6 +9,7 @@ import "./styles.css";
 export default function Home() {
   return (
     <>
+      <Header />
       <Card cardStyle="dark">
         <div className="container">
           <img src={feskGroupImage} alt="logo FESK" />
@@ -27,6 +30,7 @@ export default function Home() {
           </p>
         </div>
       </Card>
+
       <Card cardStyle="gray">
         <div className="container">
           <h1>SOBRE A NOSSA EQUIPE</h1>
@@ -60,6 +64,7 @@ export default function Home() {
           ></iframe>
         </div>
       </Card>
+      <Footer />
     </>
   );
 }

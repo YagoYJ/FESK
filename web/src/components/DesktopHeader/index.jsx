@@ -18,32 +18,19 @@ export default function DesktopHeader() {
         <div className="container">
           <nav>
             <ul>
-              <li>
-                <a href="#">Início</a>
-              </li>
-              <li>
-                <a href="#">Institucional</a>
-              </li>
-              <li>
-                <a href="#">Eventos</a>
-              </li>
-              <li>
-                <a href="#">Galeria</a>
-              </li>
-              <li>
-                <a href="#">Filiadas</a>
-              </li>
-              <li>
-                <a href="#">Ranking</a>
-              </li>
+              <li>Início</li>
+              <li>Institucional</li>
+              <li>Eventos</li>
+              <li>Galeria</li>
+              <li>Filiadas</li>
+              <li>Ranking</li>
             </ul>
-            <a href="#">
-              <FaUserAlt
-                color="#ffffff"
-                fontSize={25}
-                className="userLoginIcon"
-              />
-            </a>
+
+            <FaUserAlt
+              color="#ffffff"
+              fontSize={25}
+              className="userLoginIcon"
+            />
           </nav>
         </div>
       </div>

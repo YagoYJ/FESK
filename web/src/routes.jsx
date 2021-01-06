@@ -11,11 +11,11 @@ export default function Routes() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/institucional" component={Institucional} />
-        <Route exact path="/events" component={Events} />
-        <Route exact path="/galery" component={Galery} />
-        <Route exact path="/affiliated" component={Affiliated} />
-        <Route exact path="/ranking" component={Ranking} />
+        <Route path="/institucional" component={Institucional} />
+        <Route path="/events" component={Events} />
+        <Route path="/galery" component={Galery} />
+        <Route path="/affiliated" component={Affiliated} />
+        <Route path="/ranking" component={Ranking} />
       </Switch>
     </BrowserRouter>
   );

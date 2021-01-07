@@ -4,10 +4,12 @@ import Footer from "../../components/Footer";
 import feskGroupImage from "../../assets/feskGroupImage.png";
 
 import "./styles.css";
+import Header from "../../components/Header";
 
 export default function Home() {
   return (
     <>
+      <Header />
       <Card cardStyle="dark">
         <div className="container">
           <img src={feskGroupImage} alt="logo FESK" />

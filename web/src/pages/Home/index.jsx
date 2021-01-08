@@ -8,7 +8,7 @@ import Header from "../../components/Header";
 
 export default function Home() {
   return (
-    <>
+    <div className="homePage">
       <Header />
       <Card cardStyle="dark">
         <div className="container">
@@ -65,6 +65,6 @@ export default function Home() {
         </div>
       </Card>
       <Footer />
-    </>
+    </div>
   );
 }

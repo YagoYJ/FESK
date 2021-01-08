@@ -1,11 +1,13 @@
-.card img {
+.homePage .card .container img {
   width: 100%;
 }
-.card .container h1 {
+
+.homePage .card .container h1 {
+  text-align: center;
   margin: 30px auto;
 }
 
-.card .container .adressMap {
+.homePage .card .container .adressMap {
   width: 100%;
   height: 450px;
   margin-top: 30px;

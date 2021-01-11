@@ -1,4 +1,5 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Affiliated from "./pages/Affiliated";
 import Events from "./pages/Events";
 import Galery from "./pages/Galery";
 import Home from "./pages/Home";
@@ -12,6 +13,7 @@ export default function Routes() {
         <Route path="/institucional" component={Institucional} />
         <Route path="/events" component={Events} />
         <Route path="/galery" component={Galery} />
+        <Route path="/affiliated" component={Affiliated} />
       </Switch>
     </BrowserRouter>
   );

@@ -10,7 +10,7 @@ export default function Institucional() {
   return (
     <div className="institucionalPage">
       <Header />
-      <h1>Institucional</h1>
+      <h1 className="pageTitle">Institucional</h1>
       <Card cardStyle="gray">
         <div className="container">
           <img src={exampleImg} alt="" />

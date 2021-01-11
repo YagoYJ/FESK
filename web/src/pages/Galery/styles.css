@@ -1,0 +1,52 @@
+.galeryPage .galery {
+  width: 100%;
+}
+
+.galeryPage .galery .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.galeryPage .galery .container .album {
+  margin: 5px;
+  position: relative;
+}
+
+.galeryPage .galery .container .album .overlay {
+  width: 100%;
+  height: 155px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.galeryPage .galery .container .album .overlay:hover {
+  transition: 0.3s;
+  opacity: 1;
+  z-index: 10;
+}
+
+.galeryPage .galery .container .album .overlay a {
+  width: 100%;
+  color: #ff285c;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #18191a;
+  padding: 10px;
+}
+
+.galeryPage .galery .container .album img {
+  width: 300px;
+  height: 155px;
+  z-index: 5;
+}

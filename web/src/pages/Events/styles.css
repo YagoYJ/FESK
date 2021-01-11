@@ -1,0 +1,39 @@
+.eventsPage .pageTitle {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.eventsPage .card .container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.eventsPage .card .container .event {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.eventsPage .card .container .event img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 5px;
+}
+
+.eventsPage .card .container .event a {
+  width: 100%;
+  max-width: 400px;
+  color: #18191a;
+  background-color: #ffffff;
+  margin-top: 5px;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+}
+
+.eventsPage .card .container .event a:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8);
+}

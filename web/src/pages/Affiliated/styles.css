@@ -1,28 +1,23 @@
-main {
+.affiliatedPage main {
   margin-top: 30px;
 }
-main h1 {
+.affiliatedPage main h1,
+.affiliatedPage main h2 {
   text-align: center;
   margin-bottom: 15px;
 }
-main .card {
-}
-main .card .container {
-}
-main .card .container {
-}
 
-main .card .container p,
-main .card .container ol {
+.affiliatedPage main .card .container p,
+.affiliatedPage main .card .container ol {
   color: #ffffff;
   margin-bottom: 15px;
   font-size: 1.1rem;
   line-height: 25px;
 }
 
-main .card .container ol {
+.affiliatedPage main .card .container ol {
   padding: 0px 15px;
 }
-main .card .container ol li {
+.affiliatedPage main .card .container ol li {
   margin-bottom: 5px;
 }

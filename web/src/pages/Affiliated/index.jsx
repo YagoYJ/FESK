@@ -10,7 +10,7 @@ export default function Affiliated() {
       <Header />
       <main>
         <h1>COMO MONTAR UMA ASSOCIAÇÃO</h1>
-        <Card cardStyle="gray">
+        <Card cardStyle="black">
           <div className="container">
             <p>
               Para fundar uma associação é necessário contar com 20 pessoas
@@ -69,6 +69,42 @@ export default function Affiliated() {
               Cearense de SkateBoard por meio de solicitação. Mas não esqueçam
               que o mais importante é que tenham pessoas dispostas a trabalhar
               pela associação.
+            </p>
+          </div>
+        </Card>
+        <Card cardStyle="gray">
+          <div className="container">
+            <h2>SEJA UMA FILIADA</h2>
+            <p>
+              Para Se tornar uma associação Filiada a Federação e ter todos os
+              benefícios e direitos junto a federação, inclusive direito a voto
+              e ações, basta enviar a sua documentação para o email da
+              Federação.
+            </p>
+            <p>
+              No email deve vir anexo o Estatuto da associação, a ultima ata de
+              eleição da diretoria, a ultima ata de prestação de contas, o
+              cartão CNPJ e a certidão negativa de débitos Federais.
+            </p>
+            <p>
+              Não esqueça de que no objeto social da associação deve constar o
+              SkateBoard e o estatuto ja deve estar de acordo com o novo código
+              Civil.
+            </p>
+            <p>
+              Após a solicitação por email, o nosso conselho irá avaliar a
+              associação quanto ás diretrizes da Federação e emitirá um parecer
+              de filiação, podendo ser favorável ou não.
+            </p>
+            <p>
+              Se o parecer for favorável será marcada a data da Assembléia para
+              que seja votada a entrada da associação bem como dos seus
+              representantes.
+            </p>
+            <p>
+              Faça parte da federação, seus associados só tem a ganhar com mais
+              representatividade e tambem apoio junto aos entes públicos e
+              privados.
             </p>
           </div>
         </Card>

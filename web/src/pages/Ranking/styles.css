@@ -2,8 +2,40 @@
   text-align: center;
   margin: 30px;
 }
-.rakingPage main .container ul {
-  list-style: none;
-  text-align: left;
-  color: #ffffff;
+.rakingPage main .card .container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.rakingPage main .card .container .championship {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+.rakingPage main .card .container .championship a {
+  width: 100%;
+  line-height: 40px;
+  color: #ff285c;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.rakingPage main .card .container .championship a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: 0.3s;
+}
+
+.rakingPage main .card .container .championship img {
+  width: 100%;
+  z-index: 5;
 }

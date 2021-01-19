@@ -15,23 +15,23 @@ export default function Ranking() {
         <Card cardStyle="gray">
           <div className="container">
             <div className="championship">
-              <a href="#">Nome do campeonato</a>
+              <span> Nome do campeonato</span>
               <img src={exampleImg} alt="Imagem do campeonato" />
             </div>
             <div className="championship">
-              <a href="#">Nome do campeonato</a>
+              <span> Nome do campeonato</span>
               <img src={exampleImg} alt="Imagem do campeonato" />
             </div>
             <div className="championship">
-              <a href="#">Nome do campeonato</a>
+              <span> Nome do campeonato</span>
               <img src={exampleImg} alt="Imagem do campeonato" />
             </div>
             <div className="championship">
-              <a href="#">Nome do campeonato</a>
+              <span> Nome do campeonato</span>
               <img src={exampleImg} alt="Imagem do campeonato" />
             </div>
             <div className="championship">
-              <a href="#">Nome do campeonato</a>
+              <span> Nome do campeonato</span>
               <img src={exampleImg} alt="Imagem do campeonato" />
             </div>
           </div>

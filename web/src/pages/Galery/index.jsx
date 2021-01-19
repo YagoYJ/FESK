@@ -13,28 +13,8 @@ export default function Galery() {
       <main className="galery">
         <div className="container">
           <div className="album">
-            <div className="overlay">
-              <Link to="#">Nome do álbum</Link>
-            </div>
             <img src={exampleImg} alt="albumImage" />
-          </div>
-          <div className="album">
-            <div className="overlay">
-              <Link to="#">Nome do álbum</Link>
-            </div>
-            <img src={exampleImg} alt="albumImage" />
-          </div>
-          <div className="album">
-            <div className="overlay">
-              <Link to="#">Nome do álbum</Link>
-            </div>
-            <img src={exampleImg} alt="albumImage" />
-          </div>
-          <div className="album">
-            <div className="overlay">
-              <Link to="#">Nome do álbum</Link>
-            </div>
-            <img src={exampleImg} alt="albumImage" />
+            <Link to="#">Nome do álbum</Link>
           </div>
         </div>
       </main>

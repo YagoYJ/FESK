@@ -5,6 +5,7 @@ import Footer from "../../components/Footer";
 import exampleImg from "../../assets/exampleImg.png";
 
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 export default function Ranking() {
   return (
@@ -15,23 +16,7 @@ export default function Ranking() {
         <Card cardStyle="gray">
           <div className="container">
             <div className="championship">
-              <span> Nome do campeonato</span>
-              <img src={exampleImg} alt="Imagem do campeonato" />
-            </div>
-            <div className="championship">
-              <span> Nome do campeonato</span>
-              <img src={exampleImg} alt="Imagem do campeonato" />
-            </div>
-            <div className="championship">
-              <span> Nome do campeonato</span>
-              <img src={exampleImg} alt="Imagem do campeonato" />
-            </div>
-            <div className="championship">
-              <span> Nome do campeonato</span>
-              <img src={exampleImg} alt="Imagem do campeonato" />
-            </div>
-            <div className="championship">
-              <span> Nome do campeonato</span>
+              <Link to="#"> Nome do campeonato</Link>
               <img src={exampleImg} alt="Imagem do campeonato" />
             </div>
           </div>

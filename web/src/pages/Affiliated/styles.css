@@ -21,3 +21,7 @@
 .affiliatedPage main .card .container ol li {
   margin-bottom: 5px;
 }
+
+.affiliatedPage main .card .container ol li a {
+  color: #ff285c;
+}

@@ -16,3 +16,18 @@
   text-align: center;
   color: #ffffff;
 }
+
+.institucionalPage .card .container .skateParkImages {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.institucionalPage .card .container .skateParkImages img {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 10px;
+}

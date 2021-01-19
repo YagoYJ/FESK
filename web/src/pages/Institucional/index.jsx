@@ -3,6 +3,9 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
 import exampleImg from "../../assets/exampleImg.png";
+import ticketsImage from "../../assets/ticketsImage.png";
+import skateParkImage1 from "../../assets/skateParkImage1.png";
+import skateParkImage2 from "../../assets/skateParkImage2.png";
 
 import "./styles.css";
 
@@ -13,7 +16,7 @@ export default function Institucional() {
       <h1 className="pageTitle">Institucional</h1>
       <Card cardStyle="gray">
         <div className="container">
-          <img src={exampleImg} alt="" />
+          <img src={ticketsImage} alt="Atletas Recebendo passagens" />
           <h2>PASSAGENS E EVENTOS</h2>
           <p>
             Requerimentos e solicitações são efetuadas diáriamente pela
@@ -41,7 +44,10 @@ export default function Institucional() {
       </Card>
       <Card cardStyle="gray">
         <div className="container">
-          <img src={exampleImg} alt="" />
+          <div className="skateParkImages">
+            <img src={skateParkImage1} alt="Pista de skate" />
+            <img src={skateParkImage2} alt="Pista de skate" />
+          </div>
           <h2>PISTAS COM PROBLEMAS</h2>
           <p>
             Todos sabemos que várias pistas utilizadas hoje pela família

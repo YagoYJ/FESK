@@ -18,7 +18,7 @@
   align-items: flex-start;
 }
 
-.rakingPage main .card .container .championship span {
+.rakingPage main .card .container .championship a {
   width: 100%;
   line-height: 40px;
   color: #ff285c;

@@ -17,6 +17,56 @@
   color: #ffffff;
 }
 
+.institucionalPage .card .container .linksToTickets {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.institucionalPage .card .container .linksToTickets a {
+  background-color: #ff285c;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 5px;
+  border-radius: 8px;
+}
+
+.institucionalPage .card .container .linksToTickets .ticketLink {
+  width: 100%;
+}
+
+.institucionalPage .card .container .linksToTickets .documents {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.institucionalPage .card .container .linksToTickets .documents .documentLink {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.institucionalPage
+  .card
+  .container
+  .linksToTickets
+  .documents
+  .documentLink
+  svg {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
 .institucionalPage .card .container .skateParkImages {
   width: 100%;
   display: flex;

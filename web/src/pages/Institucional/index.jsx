@@ -8,6 +8,7 @@ import skateParkImage1 from "../../assets/skateParkImage1.png";
 import skateParkImage2 from "../../assets/skateParkImage2.png";
 
 import "./styles.css";
+import { FaFilePdf } from "react-icons/fa";
 
 export default function Institucional() {
   return (
@@ -25,6 +26,36 @@ export default function Institucional() {
             evento. As requeisições serão encaminhadas e cabe ao poder público o
             aceite das mesmas. Para ajudar a união de todos é essencial.
           </p>
+          <div className="linksToTickets">
+            <a
+              href="https://juventude.fortaleza.ce.gov.br/concessao-de-passagens"
+              target="_blank"
+              rel="noreferrer"
+              className="ticketLink"
+            >
+              Quero minhas passagens!
+            </a>
+            <div className="documents">
+              <a
+                href="https://juventude.fortaleza.ce.gov.br/images/editais/ANEXO%20I%20-%20PORTARIA_XX-2019_PASSAGENS%20-%20SOLICITA%C3%87%C3%83O.doc"
+                target="_blank"
+                rel="noreferrer"
+                className="documentLink"
+              >
+                <FaFilePdf size={40} />
+                Anexo 1
+              </a>
+              <a
+                href="https://juventude.fortaleza.ce.gov.br/images/editais/ANEXO%20II%20-%20PORTARIA_XX-2019_PASSAGENS%20%20-%20TERMO%20DE%20COMPROMISSO.docx"
+                target="_blank"
+                rel="noreferrer"
+                className="documentLink"
+              >
+                <FaFilePdf size={40} />
+                Anexo 2
+              </a>
+            </div>
+          </div>
         </div>
       </Card>
       <Card cardStyle="dark">

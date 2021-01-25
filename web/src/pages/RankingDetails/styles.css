@@ -1,0 +1,36 @@
+.rankingDetailsPage main {
+  margin-top: 20px;
+}
+
+.rankingDetailsPage main .card .container .eventApresentations {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ff285c;
+  padding-bottom: 25px;
+}
+
+.rankingDetailsPage main .card .container .eventApresentations h1 {
+  text-align: center;
+}
+
+.rankingDetailsPage main .card .container .eventApresentations img {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.rankingDetailsPage main .card .container .eventStages h2 {
+  margin-top: 25px;
+}
+
+.rankingDetailsPage main .card .container .eventStages .buttons {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}

@@ -31,7 +31,7 @@ export default function Institucional() {
               href="https://juventude.fortaleza.ce.gov.br/concessao-de-passagens"
               target="_blank"
               rel="noreferrer"
-              className="ticketLink"
+              className="button ticketLink"
             >
               Quero minhas passagens!
             </a>
@@ -40,7 +40,7 @@ export default function Institucional() {
                 href="https://juventude.fortaleza.ce.gov.br/images/editais/ANEXO%20I%20-%20PORTARIA_XX-2019_PASSAGENS%20-%20SOLICITA%C3%87%C3%83O.doc"
                 target="_blank"
                 rel="noreferrer"
-                className="documentLink"
+                className="button documentLink"
               >
                 <FaFilePdf size={40} />
                 Anexo 1
@@ -49,7 +49,7 @@ export default function Institucional() {
                 href="https://juventude.fortaleza.ce.gov.br/images/editais/ANEXO%20II%20-%20PORTARIA_XX-2019_PASSAGENS%20%20-%20TERMO%20DE%20COMPROMISSO.docx"
                 target="_blank"
                 rel="noreferrer"
-                className="documentLink"
+                className="button documentLink"
               >
                 <FaFilePdf size={40} />
                 Anexo 2

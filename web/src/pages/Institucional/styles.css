@@ -9,7 +9,8 @@
 }
 
 .institucionalPage .card .container img {
-  width: 50%;
+  width: 100%;
+  max-width: 800px;
 }
 
 .institucionalPage .card .container p {
@@ -25,15 +26,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.institucionalPage .card .container .linksToTickets a {
-  background-color: #ff285c;
-  color: #ffffff;
-  text-decoration: none;
-  text-align: center;
-  padding: 15px 5px;
-  border-radius: 8px;
 }
 
 .institucionalPage .card .container .linksToTickets .ticketLink {

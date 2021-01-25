@@ -5,6 +5,7 @@ import Galery from "./pages/Galery";
 import Home from "./pages/Home";
 import Institucional from "./pages/Institucional";
 import Ranking from "./pages/Ranking";
+import RankingDetails from "./pages/RankingDetails";
 
 export default function Routes() {
   return (
@@ -15,7 +16,8 @@ export default function Routes() {
         <Route path="/events" component={Events} />
         <Route path="/galery" component={Galery} />
         <Route path="/affiliated" component={Affiliated} />
-        <Route path="/ranking" component={Ranking} />
+        <Route exact path="/ranking" component={Ranking} />
+        <Route path="/ranking/details/:id" component={RankingDetails} />
       </Switch>
     </BrowserRouter>
   );

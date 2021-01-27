@@ -35,7 +35,9 @@ export default function Footer() {
             //    value={}
             //     onChange={}
           />
-          <button type="submit">Enviar</button>
+          <button type="submit" className="button">
+            Enviar
+          </button>
         </form>
         <span className="or">OU</span>
         <div className="contacts">

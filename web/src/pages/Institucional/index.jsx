@@ -2,13 +2,13 @@ import Card from "../../components/Card";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
-import exampleImg from "../../assets/exampleImg.png";
 import ticketsImage from "../../assets/ticketsImage.png";
 import skateParkImage1 from "../../assets/skateParkImage1.png";
 import skateParkImage2 from "../../assets/skateParkImage2.png";
 
-import "./styles.css";
 import { FaFilePdf } from "react-icons/fa";
+
+import "./styles.css";
 
 export default function Institucional() {
   return (
@@ -60,7 +60,6 @@ export default function Institucional() {
       </Card>
       <Card cardStyle="dark">
         <div className="container">
-          <img src={exampleImg} alt="" />
           <h2>FORMA DE ADMINISTRAÇÃO</h2>
           <p>
             A forma de administração da federação é deliberativa, sendo que o

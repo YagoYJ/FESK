@@ -27,10 +27,13 @@
 }
 
 .rankingDetailsPage main .card .container .eventStages .buttons {
-  padding: 25px;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
   align-items: center;
   justify-content: center;
+}
+
+.rankingDetailsPage main .card .container .eventStages .buttons a {
+  margin: 10px;
+  padding: 15px;
 }

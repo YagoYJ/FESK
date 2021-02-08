@@ -37,8 +37,7 @@
 }
 
 .footer .container .sendEmailForm input,
-.footer .container .sendEmailForm textarea,
-.footer .container .sendEmailForm button {
+.footer .container .sendEmailForm textarea {
   width: 100%;
   padding: 8px;
   background: unset;
@@ -46,22 +45,19 @@
   color: #ffffff;
 }
 
+.footer .container .sendEmailForm button {
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  margin-top: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 .footer .container .sendEmailForm textarea {
   margin-top: 5px;
   resize: vertical;
   min-height: 100px;
-}
-
-.footer .container .sendEmailForm button {
-  color: #18191a;
-  background-color: #ffffff;
-  margin-top: 5px;
-}
-
-.footer .container .sendEmailForm button:hover {
-  transition: 0.3s;
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .footer .container .or {

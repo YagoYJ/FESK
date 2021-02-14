@@ -1,40 +1,29 @@
 import { FaEnvelope, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import sendEmail from '../../services/mail'
 
 import "./styles.css";
 
 export default function Footer() {
+
+  
+
   return (
     <footer className="footer">
       <h2>ENTRE EM CONTATO</h2>
       <div className="container">
-        <form className="sendEmailForm">
+        <form className="sendEmailForm" onSubmit={sendEmail}>
           <div className="inputGroup">
-            <input
-              type="text"
-              placeholder="Nome *"
-              //    value={}
-              //     onChange={}
-            />
+            <input type="text" placeholder="Nome *" name="user_name" />
 
-            <input
-              type="email"
-              placeholder="E-mail *"
-              //    value={}
-              //     onChange={}
-            />
+            <input type="email" placeholder="E-mail *" name="user_email" />
           </div>
-          <input
-            type="text"
-            placeholder="Assunto *"
-            //    value={}
-            //     onChange={}
-          />
+
           <textarea
             cols="5"
             placeholder="Deixe sua mensagem *"
-            //    value={}
-            //     onChange={}
+            name="message"
           />
+
           <button type="submit" className="button">
             Enviar
           </button>

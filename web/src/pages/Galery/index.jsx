@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 import exampleImg from "../../assets/exampleImg.png";
 
 import "./styles.css";
+import Thumbnail from "../../components/Thumbnail";
 
 export default function Galery() {
   return (
@@ -12,10 +12,13 @@ export default function Galery() {
       <Header />
       <main className="galery">
         <div className="container">
-          <div className="album">
-            <img src={exampleImg} alt="albumImage" />
-            <Link to="#">Nome do álbum</Link>
-          </div>
+          <Thumbnail
+            title="Nome do álbum"
+            imageLink={exampleImg}
+            imageAlt="albumImage"
+            buttonLink="#"
+            buttonText="Ver imagens"
+          />
         </div>
       </main>
       <Footer />

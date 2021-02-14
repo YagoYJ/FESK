@@ -5,8 +5,8 @@ import Footer from "../../components/Footer";
 import CJASThumb from "../../assets/CJASThumb.png";
 
 import "./styles.css";
-import { Link } from "react-router-dom";
 import { useState } from "react";
+import Thumbnail from "../../components/Thumbnail";
 
 export default function Ranking() {
   // eslint-disable-next-line
@@ -26,16 +26,13 @@ export default function Ranking() {
           <div className="container">
             {rankings.map((ranking) => (
               <div className="championship">
-                <div className="thumb">
-                  <h2>Circuito Juventude Ativa de Skate 2020</h2>
-                  <img src={CJASThumb} alt="Imagem do campeonato" />
-                </div>
-                <Link
-                  to={`/ranking/details/${ranking.id}`}
-                  className="button detailsButton"
-                >
-                  Ver detalhes
-                </Link>
+                <Thumbnail
+                  title="Circuito Juventude Ativa de Skate 2020"
+                  imageLink={CJASThumb}
+                  imageAlt="Imagem do campeonato"
+                  buttonLink={`/ranking/details/${ranking.id}`}
+                  buttonText="Ver detalhes"
+                />
               </div>
             ))}
           </div>

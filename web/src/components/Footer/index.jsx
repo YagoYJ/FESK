@@ -1,12 +1,9 @@
 import { FaEnvelope, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import sendEmail from '../../services/mail'
+import sendEmail from "./mail";
 
 import "./styles.css";
 
 export default function Footer() {
-
-  
-
   return (
     <footer className="footer">
       <h2>ENTRE EM CONTATO</h2>

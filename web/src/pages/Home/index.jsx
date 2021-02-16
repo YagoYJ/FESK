@@ -57,10 +57,10 @@ export default function Home() {
             title="adressMap"
             className="adressMap"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.0263579585353!2d-38.52522248524089!3d-3.804378897232436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74fac135b9f6d%3A0x570de6521199847e!2sAv.%20Alberto%20Craveiro%2C%202872%20-%20Dias%20Macedo%2C%20Fortaleza%20-%20CE%2C%2060861-212!5e0!3m2!1spt-BR!2sbr!4v1609892107125!5m2!1spt-BR!2sbr"
-            frameborder="0"
-            allowfullscreen=""
+            frameBorder="0"
+            allowFullScreen=""
             aria-hidden="false"
-            tabindex="0"
+            tabIndex="0"
           ></iframe>
         </div>
       </Card>

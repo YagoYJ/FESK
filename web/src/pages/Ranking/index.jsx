@@ -13,7 +13,7 @@ export default function Ranking() {
   const [rankings, setRankings] = useState([
     {
       id: 1,
-      name: "CJAS 2020",
+      name: "CJAS 2019",
     },
   ]);
 
@@ -27,7 +27,7 @@ export default function Ranking() {
             {rankings.map((ranking) => (
               <div className="championship">
                 <Thumbnail
-                  title="Circuito Juventude Ativa de Skate 2020"
+                  title="Circuito Juventude Ativa de Skate 2019"
                   imageLink={CJASThumb}
                   imageAlt="Imagem do campeonato"
                   buttonLink={`/ranking/details/${ranking.id}`}

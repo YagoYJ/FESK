@@ -37,3 +37,16 @@
   margin: 10px;
   padding: 15px;
 }
+
+.rankingDetailsPage main .card .container .results {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.rankingDetailsPage main .card .container .results h2 {
+  margin: 20px auto;
+}

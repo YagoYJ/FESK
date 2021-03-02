@@ -1,0 +1,22 @@
+.categoryContainer {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.categoryContainer h3 {
+  color: #18191a;
+  background-color: #ff285c;
+  padding: 10px;
+}
+
+.categoryContainer ul {
+  width: 100%;
+  list-style: none;
+  background-color: #000000;
+}
+
+.categoryContainer ul li {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}

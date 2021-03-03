@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaBars, FaTimes, FaUserAlt } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import logo from "../../../assets/logo.png";
@@ -23,9 +23,9 @@ export default function MobileHeader() {
       <div className="options">
         <img src={logo} alt="Logo da FESK" />
         <div className="optionsButtons">
-          <button className="iconButton">
+          {/* <button className="iconButton">
             <FaUserAlt color="#830719" fontSize={35} />
-          </button>
+          </button> */}
           <button className="iconButton" onClick={handleOpenMenu}>
             <FaBars color="#830719" fontSize={35} />
           </button>

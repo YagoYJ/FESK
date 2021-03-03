@@ -1,4 +1,3 @@
-import { FaUserAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import logo from "../../../assets/logo.png";
@@ -39,11 +38,11 @@ export default function DesktopHeader() {
               </li>
             </ul>
 
-            <FaUserAlt
+            {/* <FaUserAlt
               color="#ffffff"
               fontSize={25}
               className="userLoginIcon"
-            />
+            /> */}
           </nav>
         </div>
       </div>
